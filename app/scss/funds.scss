@@ -1,0 +1,150 @@
+.funds {
+    position: relative;
+    box-sizing: border-box;
+    background: #F7F7F7;
+    padding: 24px 0px 37px 0px;
+    &_block {
+        &_left {
+            & h2 {
+                font-family: 'Gilroy';
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 31px;
+                letter-spacing: 0.03em;
+                color: #065F51;
+            }
+            & p {
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: 0.03em;
+                color: #353535;
+                margin-bottom: 20px;
+                & b {
+                    font-weight: 700;
+                }
+            } 
+        }
+        &_right {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+            &_item {
+                position: relative;
+                box-sizing: border-box;
+                background: #FFFFFF;
+                box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+                border-radius: 15px;
+                padding: 0px 4px 16px 8px;
+                width: calc(50% - 8px);
+                &_img {
+                    height: 92px;
+                }
+                &_text {
+                    margin-left: 30px;
+                }
+                & span {
+                    position: absolute;
+                    right: 5px;
+                    top: 0px;
+                    font-family: 'Gilroy';
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 38px;
+                    text-align: right;
+                    letter-spacing: 0.03em;
+                    color: rgba(1, 141, 119, 0.1);
+                }
+                & h4 {
+                    font-family: 'Gilroy';
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: 0.03em;
+                    color: #353535;
+                }
+                & p {
+                    font-family: 'Gilroy';
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0.03em;
+                    color: #959595;
+                    margin-top: 6px;
+                }
+                &:first-child {
+                    & img {
+                        width: 90px;
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        margin-top: 26px;
+                    }
+                }
+                &:nth-child(2) {
+                    & img {
+                        width: 95px;
+                        margin-top: 10px;
+                        transform: translateX(-7px);
+                    }
+                }
+                &:last-child {
+                    width: 100%;
+                    margin-top: 16px;
+                    display: flex;
+                    align-items: flex-end;
+                    & img {
+                        width: 153px;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 1200px) {
+        padding: 50px 0px;
+        &_block {
+            display: flex;
+            &_left {
+                width: 480px;
+                min-width: 480px;
+                & h2 {
+                    font-size: 38px;
+                    line-height: 46px;
+                    margin-bottom: 18px;
+                }
+                & p {
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+            }
+            &_right {
+                margin-left: 100px;
+                &_item {
+                    width: calc(50% - 15px);
+                    &_img {
+                        height: ;
+                    }
+                    & span {
+                        font-size: 42px;
+                        line-height: 50px;
+                        right: 15px;
+                        top: 7px;
+                    }
+                    &:first-child {
+                        & img {
+                            width: 150px;
+                        }
+                    }
+                    & h4 {
+                        font-size: 18px;
+                        line-height: 23px;
+                    }
+                    & p {
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

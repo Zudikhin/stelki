@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    & img {
+        width: 100%;
+    }
+    & h3 {
+        font-family: 'Artegra Sans Extended SC';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #EA0011;
+        text-align: center;
+    }
+    @media (min-width: 768px) {
+        & h3 {
+            font-size: 26px;
+            line-height: 34px;
+        }
+    }
+    @media (min-width: 1200px) {
+        & h3 {
+            font-size: 35px;
+            line-height: 45px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0px;
+        }
+    }
+    @media (min-width: 1536px) {
+        & h3 {
+            font-size: 40px;
+            line-height: 62px;
+        }
+    }
+}

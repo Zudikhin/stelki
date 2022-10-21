@@ -1,0 +1,882 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"), url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Heavy.eot");
+  src: local("Gilroy Heavy"), local("Gilroy-Heavy"), url("../fonts/Gilroy-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Heavy.woff") format("woff"), url("../fonts/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-LightItalic.eot");
+  src: local("Gilroy Light Italic"), local("Gilroy-LightItalic"), url("../fonts/Gilroy-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-LightItalic.woff") format("woff"), url("../fonts/Gilroy-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ThinItalic.eot");
+  src: local("Gilroy Thin Italic"), local("Gilroy-ThinItalic"), url("../fonts/Gilroy-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ThinItalic.woff") format("woff"), url("../fonts/Gilroy-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BlackItalic.eot");
+  src: local("Gilroy Black Italic"), local("Gilroy-BlackItalic"), url("../fonts/Gilroy-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-BlackItalic.woff") format("woff"), url("../fonts/Gilroy-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BoldItalic.eot");
+  src: local("Gilroy Bold Italic"), local("Gilroy-BoldItalic"), url("../fonts/Gilroy-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-BoldItalic.woff") format("woff"), url("../fonts/Gilroy-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBold.eot");
+  src: local("Gilroy SemiBold"), local("Gilroy-SemiBold"), url("../fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLightItalic.eot");
+  src: local("Gilroy UltraLight Italic"), local("Gilroy-UltraLightItalic"), url("../fonts/Gilroy-UltraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-UltraLightItalic.woff") format("woff"), url("../fonts/Gilroy-UltraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBoldItalic.eot");
+  src: local("Gilroy SemiBold Italic"), local("Gilroy-SemiBoldItalic"), url("../fonts/Gilroy-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-SemiBoldItalic.woff") format("woff"), url("../fonts/Gilroy-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Light.eot");
+  src: local("Gilroy Light"), local("Gilroy-Light"), url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-MediumItalic.eot");
+  src: local("Gilroy Medium Italic"), local("Gilroy-MediumItalic"), url("../fonts/Gilroy-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-MediumItalic.woff") format("woff"), url("../fonts/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBoldItalic.eot");
+  src: local("Gilroy ExtraBold Italic"), local("Gilroy-ExtraBoldItalic"), url("../fonts/Gilroy-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBoldItalic.woff") format("woff"), url("../fonts/Gilroy-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"), url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-HeavyItalic.eot");
+  src: local("Gilroy Heavy Italic"), local("Gilroy-HeavyItalic"), url("../fonts/Gilroy-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-HeavyItalic.woff") format("woff"), url("../fonts/Gilroy-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"), url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-RegularItalic.eot");
+  src: local("Gilroy Regular Italic"), local("Gilroy-RegularItalic"), url("../fonts/Gilroy-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-RegularItalic.woff") format("woff"), url("../fonts/Gilroy-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLight.eot");
+  src: local("Gilroy UltraLight"), local("Gilroy-UltraLight"), url("../fonts/Gilroy-UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-UltraLight.woff") format("woff"), url("../fonts/Gilroy-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Thin.eot");
+  src: local("Gilroy Thin"), local("Gilroy-Thin"), url("../fonts/Gilroy-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Thin.woff") format("woff"), url("../fonts/Gilroy-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black.eot");
+  src: local("Gilroy Black"), local("Gilroy-Black"), url("../fonts/Gilroy-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  border: none;
+  -moz-appearance: textfield;
+}
+
+input[type=number]:focus {
+  outline: none;
+}
+
+input[type=tel] {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type=text] {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type=tel]:focus {
+  outline: none;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+select {
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+div {
+  -webkit-tap-highlight-color: transparent;
+}
+
+div:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px 15px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0px 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 0px 45px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    padding: 0px;
+    max-width: 1120px;
+  }
+}
+.header {
+  position: relative;
+}
+.header img {
+  width: 100%;
+}
+.header h3 {
+  font-family: "Artegra Sans Extended SC";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #EA0011;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .header h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+@media (min-width: 1200px) {
+  .header h3 {
+    font-size: 35px;
+    line-height: 45px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 0px;
+  }
+}
+@media (min-width: 1536px) {
+  .header h3 {
+    font-size: 40px;
+    line-height: 62px;
+  }
+}
+
+.main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 72px;
+  padding-bottom: 45px;
+  position: relative;
+}
+.main_block_left h1 {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 39px;
+  letter-spacing: 0.03em;
+  color: #FF8C27;
+}
+.main_block_left p {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #353535;
+  margin-top: 8px;
+}
+.main_block_left a {
+  width: 258px;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #1B7E7B;
+  margin-top: 10px;
+}
+.main_block_left a span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main_block_left a img {
+  margin-left: 17px;
+}
+.main_block_right {
+  margin-top: 50px;
+}
+.main_block_right img {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .main {
+    padding-top: 104px;
+    padding-bottom: 168px;
+    overflow: hidden;
+  }
+  .main_block_left {
+    width: 527px;
+    position: relative;
+    z-index: 2;
+  }
+  .main_block_left h1 {
+    font-size: 50px;
+    line-height: 57px;
+  }
+  .main_block_left p {
+    font-size: 22px;
+    line-height: 26px;
+    width: 486px;
+  }
+  .main_block_left a {
+    margin-top: 20px;
+  }
+  .main_block_right {
+    position: absolute;
+    right: 0px;
+    top: -260px;
+    margin-top: 0px;
+  }
+}
+
+.fasciitis {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #F7F7F7;
+  padding-top: 23px;
+  padding-bottom: 31px;
+}
+.fasciitis_block_left h2 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #065F51;
+  margin-bottom: 10px;
+}
+.fasciitis_block_left p {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #353535;
+  margin-bottom: 20px;
+}
+.fasciitis_block_left p b {
+  font-weight: 600;
+}
+.fasciitis_block_right {
+  margin-top: 87px;
+  position: relative;
+}
+.fasciitis_block_right_one {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  width: 52%;
+  -webkit-filter: drop-shadow(0px 7px 25px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 7px 25px rgba(0, 0, 0, 0.15));
+  border-radius: 15px;
+  z-index: 2;
+}
+.fasciitis_block_right_one img {
+  width: 100%;
+}
+.fasciitis_block_right_two {
+  width: 70%;
+  -webkit-filter: drop-shadow(0px 7px 25px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 7px 25px rgba(0, 0, 0, 0.15));
+  border-radius: 10px;
+}
+.fasciitis_block_right_two img {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .fasciitis {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .fasciitis_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fasciitis_block_left {
+    min-width: 532px;
+    width: 532px;
+  }
+  .fasciitis_block_left h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .fasciitis_block_left p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .fasciitis_block_right {
+    margin-left: 86px;
+  }
+  .fasciitis_block_right_one {
+    width: 288px;
+    top: -40px;
+    right: -60px;
+  }
+  .fasciitis_block_right_two {
+    width: 380px;
+  }
+}
+
+.question {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 50px 0px;
+  background-color: #fff;
+}
+.question_top_item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  margin-top: 20px;
+}
+.question_top_item:first-child {
+  margin-top: 0px;
+}
+.question_top_item_main {
+  width: 100%;
+  border-radius: 15px;
+}
+.question_top_item_text {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+.question_top_item_text h2 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #065F51;
+  position: relative;
+  z-index: 2;
+}
+.question_top_item_text p {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #353535;
+  margin-top: 12px;
+  position: relative;
+  z-index: 2;
+}
+.question_top_item_text_feature {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: none;
+}
+.question_top_item_text_feature_one {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 120px;
+}
+.question_top_item_text_feature_two {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 130px;
+}
+.question_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.question_bottom_right {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25px;
+}
+.question_bottom_right h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #065F51;
+}
+.question_bottom_left {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+.question_bottom_left video {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (min-width: 1200px) {
+  .question {
+    padding: 80px 0px;
+  }
+  .question_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .question_top_item {
+    width: calc(50% - 15px);
+    margin-top: 0px;
+  }
+  .question_top_item:last-child h2 {
+    width: 270px;
+  }
+  .question_top_item_main {
+    height: 326px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .question_top_item_text {
+    padding: 25px 30px;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    height: calc(100% - 326px);
+  }
+  .question_top_item_text_feature {
+    display: block;
+  }
+  .question_top_item_text_feature_one {
+    width: auto;
+  }
+  .question_top_item_text_feature_two {
+    width: auto;
+  }
+  .question_top_item_text h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .question_top_item_text p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .question_bottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    margin-top: 54px;
+  }
+  .question_bottom_left {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 545px;
+    min-width: 545px;
+  }
+  .question_bottom_right {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 0px 30px;
+  }
+  .question_bottom_right h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+.funds {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #F7F7F7;
+  padding: 24px 0px 37px 0px;
+}
+.funds_block_left h2 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #065F51;
+}
+.funds_block_left p {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #353535;
+  margin-bottom: 20px;
+}
+.funds_block_left p b {
+  font-weight: 700;
+}
+.funds_block_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+.funds_block_right_item {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  padding: 0px 4px 16px 8px;
+  width: calc(50% - 8px);
+}
+.funds_block_right_item_img {
+  height: 92px;
+}
+.funds_block_right_item_text {
+  margin-left: 30px;
+}
+.funds_block_right_item span {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: rgba(1, 141, 119, 0.1);
+}
+.funds_block_right_item h4 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #353535;
+}
+.funds_block_right_item p {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #959595;
+  margin-top: 6px;
+}
+.funds_block_right_item:first-child img {
+  width: 90px;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-top: 26px;
+}
+.funds_block_right_item:nth-child(2) img {
+  width: 95px;
+  margin-top: 10px;
+  -webkit-transform: translateX(-7px);
+          transform: translateX(-7px);
+}
+.funds_block_right_item:last-child {
+  width: 100%;
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.funds_block_right_item:last-child img {
+  width: 153px;
+}
+@media (min-width: 1200px) {
+  .funds {
+    padding: 50px 0px;
+  }
+  .funds_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .funds_block_left {
+    width: 480px;
+    min-width: 480px;
+  }
+  .funds_block_left h2 {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 18px;
+  }
+  .funds_block_left p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .funds_block_right {
+    margin-left: 100px;
+  }
+  .funds_block_right_item {
+    width: calc(50% - 15px);
+  }
+  .funds_block_right_item span {
+    font-size: 42px;
+    line-height: 50px;
+    right: 15px;
+    top: 7px;
+  }
+  .funds_block_right_item:first-child img {
+    width: 150px;
+  }
+  .funds_block_right_item h4 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .funds_block_right_item p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

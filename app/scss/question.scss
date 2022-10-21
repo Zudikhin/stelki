@@ -1,0 +1,161 @@
+.question {
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px 0px;
+    background-color: #fff;
+    &_top {
+        &_item {
+            box-sizing: border-box;
+            position: relative;
+            margin-top: 20px;
+            &:first-child {
+                margin-top: 0px;
+            }
+            &_main {
+                width: 100%;
+                border-radius: 15px;
+            }
+            &_text {
+                background: #FFFFFF;
+                box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+                border-radius: 15px;
+                box-sizing: border-box;
+                padding: 20px;
+                position: relative;
+                transform: translateY(-20px);
+                & h2 {
+                    font-family: 'Gilroy';
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 31px;
+                    letter-spacing: 0.03em;
+                    color: #065F51;
+                    position: relative;
+                    z-index: 2;
+                }
+                & p {
+                    font-family: 'Gilroy';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.03em;
+                    color: #353535;
+                    margin-top: 12px;
+                    position: relative;
+                    z-index: 2;
+                }
+                &_feature {
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    display: none;
+                }
+                &_feature_one {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    width: 120px;
+                }
+                &_feature_two {
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    width: 130px;
+                }
+            }
+        }
+    }
+    &_bottom {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        margin-top: 30px;
+        &_right {
+            order: 1;
+            box-sizing: border-box;
+            padding: 25px;
+            & h2 {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 31px;
+                letter-spacing: 0.03em;
+                color: #065F51;
+            }
+        }
+        &_left {
+            order: 2;
+            & video {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+    @media (min-width: 1200px) {
+        padding: 80px 0px;
+        &_top {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            align-items: stretch;
+            &_item {
+                width: calc(50% - 15px);
+                margin-top: 0px;
+                &:last-child {
+                    & h2 {
+                        width: 270px;
+                    }
+                }
+                &_main {
+                    height: 326px;
+                    object-fit: cover;
+                }
+                &_text {
+                    padding: 25px 30px;
+                    transform: translateY(-30px);
+                    height: calc(100% - 326px);
+                    &_feature {
+                        display: block;
+                    }
+                    &_feature_one {
+                        width: auto;
+                    }
+                    &_feature_two {
+                        width: auto;
+                    }
+                    & h2 {
+                        font-size: 38px;
+                        line-height: 46px;
+                    }
+                    & p {
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+        &_bottom {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            margin-top: 54px;
+            &_left {
+                order: 1;
+                width: 545px;
+                min-width: 545px;
+            }
+            &_right {
+                order: 2;
+                padding: 0px 30px;
+                & h2 {
+                    font-size: 38px;
+                    line-height: 46px;
+                }
+            }
+        }
+    }
+}
